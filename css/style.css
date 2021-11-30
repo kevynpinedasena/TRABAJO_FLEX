@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(36 40 43);
+    width: 100%;
+    height: 158px;
+    border-bottom: solid 5px rgb(18 147 212);
+}
+span{
+    color: rgb(36 40 43);
+}
+h1{
+    color: aliceblue;
+    font-size: 37px;
+}
+h2{
+    color: aliceblue;
+    font-size: 60px;
+}
+.texto p{
+    color: aliceblue;
+    font-size: 17px;
+}
+.multimedia{
+    color: rgb(18 147 212);
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+}
+.menu a:hover{
+    color: rgb(18 147 212);
+}
+.menu{
+    display: flex;
+    gap: 36px;
+}
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/cabecera.jpg) 0 -318px;
+    background-size: 1902px;
+    height: 638px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    gap: 30px;
+}
+.linea{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(36 40 43);
+    font-size: 50px;
+    height: 109px;
+    gap: 71px;
+}
+.dosmenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dosmenu h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+.boton{
+    width: 131px;
+    height: 42px;
+    color: aliceblue;
+    background-color: rgb(232 73 29);
+    border: none;
+}
+input{
+    width: 262px;
+    height: 42px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconos{
+    display: flex;
+    height: 606px;
+    justify-content:center;
+}
+.ico1{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.ico2{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.ico3{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.iconos img{
+    height: 150px;
+    width: 150px;
+}
+.iconos h2{
+    color: black;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18 147 212);
+}
+.final h2{
+    font-size: 34px;
+}
+
+.conte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+    padding: 40px 132px;
+    gap: 20px;
+}
+
+.izquierdo{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    gap: 30px;
+    padding: 20px 20px;
+}
+
+.derecha{
+    width: 30%;
+    height: 100%;
+    padding: 20px 20px ;
+}
+
+.linea2{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(36 40 43);
+    font-size: 50px;
+    height: 109px;
+    gap: 71px;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    color: aliceblue;
+    padding: 10px 10px;
+    background-color: rgb(53 66 74);
+}
+
+.text1{
+    width: 100%;
+    
+}
+
+.text1 h2{
+    color: black;
+    font-size: 30px;
+}
+
+.text3{
+    width: 80%;
+    height: 224px;
+    color: white;
+    padding: 10px 10px;
+    background-color:rgb(53 66 74) ;
+}
+
+.text3 h2{
+    font-size: 22px;
+}
+
+.imagen1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.text3 p{
+    margin-top: 10px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 40px 132px;
+    gap: 20px;
+}
+
+
+
+.carta1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #e6e6e6;
+    padding: 20px 20px;
+    gap: 35px;
+
+}
+.izqui{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    gap: 30px;
+    padding: 20px 20px;
+}
+.carta1 h3{
+    color: black;
+    font-size: 25px;
+}
+.izqui h2{
+    color: black;
+    font-size: 35px;
+}
+.dere{
+    width: 30%;
+    height: 100%;
+    padding: 20px 20px ;
+}
+.text33{
+    width: 100%;
+    height: 190px;
+    color: white;
+    padding: 10px 10px;
+    background-color:rgb(53 66 74) ;
+}
+.text33 p{
+    margin-top: 10px;
+}
+.text33 h2{
+    font-size: 22px;
+}
+
+.contee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 40px 132px;
+    gap: 20px;
+}
+input{
+    width: 100%;
+}
+.textt{
+    height: 200px;
+}
+.botoon{
+    width: 100%;
+    height: 42px;
+    color: aliceblue;
+    background-color: rgb(232 73 29);
+    border: none;
+    margin-top: 20px;
+}
+
+.imag img{
+    width: 100%;
+    height: 266px;
+    margin-top: 100px;
+}
+
+@media(max-width: 1000px){
+    .conte {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 700px;
+        padding: 40px 92px;
+        gap: 20px;
+    }
+    h2 {
+        color: aliceblue;
+        font-size: 54px;
+    }
+    .derecha {
+        width: 30%;
+        height: 100%;
+        padding: 20px 11px;
+    }
+    .text3 {
+        width: 103%;
+        height: 246px;
+        color: white;
+        padding: 10px 10px;
+        background-color: rgb(53 66 74);
+    }
+    .text2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 197px;
+        color: aliceblue;
+        padding: 10px 10px;
+        background-color: rgb(53 66 74);
+    }
+    .text33 {
+        width: 103%;
+        height: 264px;
+        color: white;
+        padding: 10px 10px;
+        background-color: rgb(53 66 74);
+    }
+    .imag img {
+        width: 100%;
+        height: 240px;
+        margin-top: 40px;
+    }
+    .dere {
+        width: 30%;
+        height: 100%;
+        padding: 20px 9px;
+    }
+    .cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 40px 70px;
+        gap: 20px;
+    }
+
+    .contee {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 40px 65px;
+        gap: 20px;
+    }
+}
+
+
+@media(max-width: 780px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(36 40 43);
+        width: 100%;
+        height: 134px;
+        border-bottom: solid 5px rgb(18 147 212);
+    }
+    h1 {
+        color: aliceblue;
+        font-size: 29px;
+    }
+    .menu {
+        display: flex;
+        gap: 13px;
+    }
+    .menu a {
+        text-decoration: none;
+        font-size: 16px;
+        color: aliceblue;
+    }
+    h2 {
+        color: aliceblue;
+        font-size: 41px;
+    }
+    .texto p {
+        color: aliceblue;
+        font-size: 12px;
+    }
+    .dosmenu h2 {
+        color: aliceblue;
+        font-size: 20px;
+    }
+    .linea {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(36 40 43);
+        font-size: 50px;
+        height: 109px;
+        gap: 85px;
+    }
+    input {
+        height: 35px;
+    }
+    .boton {
+        width: 131px;
+        height: 35px;
+        color: aliceblue;
+        background-color: rgb(232 73 29);
+        border: none;
+    }
+    .iconos img {
+        height: 100px;
+        width: 100px;
+    }
+    .iconos h2 {
+        color: black;
+        font-size: 33px;
+    }
+    .conte {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 700px;
+        padding: 40px 23px;
+        gap: 20px;
+    }
+    .cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 40px 27px;
+        gap: 20px;
+    }
+    .contee {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 40px 15px;
+        gap: 20px;
+    }
+    .imag img {
+        width: 100%;
+        height: 266px;
+        margin-top: 17px;
+    }
+    .final {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(18 147 212);
+    }
+    .final h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width: 585px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(36 40 43);
+        width: 100%;
+        height: 100px;
+        border-bottom: solid 5px rgb(18 147 212);
+    }
+    h1 {
+        color: aliceblue;
+        font-size: 20px;
+    }
+    .menu {
+        display: flex;
+        gap: 11px;
+    }
+    .menu a {
+        text-decoration: none;
+        font-size: 12px;
+        color: aliceblue;
+    }
+    .imagen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../images/cabecera.jpg) 0 -318px;
+        background-size: 1586px;
+        height: 376px;
+    }
+    h2 {
+        color: aliceblue;
+        font-size: 31px;
+    }
+    .texto p {
+        color: aliceblue;
+        font-size: 8px;
+    }
+    .dosmenu h2 {
+        color: aliceblue;
+        font-size: 11px;
+    }
+    input {
+        height: 25px;
+    }
+    .boton {
+        width: 131px;
+        height: 25px;
+        color: aliceblue;
+        background-color: rgb(232 73 29);
+        border: none;
+    }
+    .linea {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(36 40 43);
+        font-size: 50px;
+        height: 80px;
+        gap: 0px;
+    }
+    .iconos img {
+        height: 60px;
+        width: 60px;
+    }
+    .ico1 {
+        display: flex;
+        justify-content: center;
+        width: 19%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+    .ico2 {
+        display: flex;
+        justify-content: center;
+        width: 19%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+    .ico3 {
+        display: flex;
+        justify-content: center;
+        width: 19%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+    .iconos h2 {
+        color: black;
+        font-size: 16px;
+    }
+    .ico1 p{
+        font-size: 12px;
+    }
+    .ico2 p{
+        font-size: 12px;
+    }
+    .ico3 p{
+        font-size: 12px;
+    }
+    .iconos {
+        display: flex;
+        height: 381px;
+        justify-content: center;
+        gap: 52px;
+    }
+    .final h2 {
+        font-size: 18px;
+    }
+    .final {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(18 147 212);
+    }
+    .conte {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 700px;
+        padding: 40px 16px;
+        gap: 20px;
+    }
+    .conte {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 645px;
+        padding: 40px 16px;
+        gap: 0px;
+    }
+    .text3 h2 {
+        font-size: 15px;
+    }
+    .text1 h2 {
+        color: black;
+        font-size: 20px;
+    }
+    .text3 p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .text1 p{
+        font-size: 15px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+    .linea2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(36 40 43);
+        font-size: 50px;
+        height: 85px;
+        gap: 71px;
+    }
+
+    .cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 40px 10px;
+        gap: 0px;
+    }
+    .izqui h2 {
+        color: black;
+        font-size: 20px;
+    }
+    .carta1 h3 {
+        color: black;
+        font-size: 18px;
+    }
+    .carta1 p{
+        font-size: 13px;
+    }
+    .text33 {
+        width: 103%;
+        height: 221px;
+        color: white;
+        padding: 10px 10px;
+        background-color: rgb(53 66 74);
+    }
+    .text33 h2 {
+        font-size: 15px;
+    }
+    .text33 p {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .contee {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 40px 3px;
+        gap: 0px;
+    }
+    .imag img {
+        width: 100%;
+        height: 208px;
+        margin-top: 17px;
+    }
+}
