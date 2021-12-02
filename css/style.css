@@ -805,4 +805,39 @@ input{
     .izqui .car h3 {
         margin-top: 15px;
     }
+    .izqui {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        gap: 30px;
+        padding: 20px 20px;
+    }
+    .dere {
+        width: 30%;
+        height: auto;
+        padding: 20px 9px;
+    }
+    .conte {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 18px 9px;
+        gap: 0px;
+    }
+    .izquierdo {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        gap: 30px;
+        padding: 20px 20px;
+    }
+    .derecha {
+        width: 30%;
+        height: auto;
+        padding: 20px 11px;
+    }
 }
