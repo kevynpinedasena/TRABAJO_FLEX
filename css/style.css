@@ -705,7 +705,11 @@ input{
         margin-top: 17px;
     }
 }
-@media(max-width: 450px){
+@media(max-width: 411px){
+    h1 {
+        color: aliceblue;
+        font-size: 16px;
+    }
     h2 {
         color: aliceblue;
         font-size: 24px;
@@ -719,6 +723,10 @@ input{
         height: 446px;
         justify-content: center;
         gap: 52px;
+    }
+    .dosmenu h2 {
+        color: aliceblue;
+        font-size: 9px;
     }
     .dosmenu {
         display: flex;
@@ -743,6 +751,15 @@ input{
         align-items: center;
         gap: 22px;
     }
+    .ico2 {
+        display: flex;
+        justify-content: center;
+        width: 18%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
     .conte {
         display: flex;
         flex-direction: row;
@@ -754,7 +771,7 @@ input{
     }
     .text3 {
         width: 106%;
-        height: 287px;
+        height: 313px;
         color: white;
         padding: 10px 8px;
         background-color: rgb(53 66 74);
@@ -764,7 +781,7 @@ input{
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        height: 701px;
+        height: 764px;
         padding: 18px 9px;
         gap: 0px;
     }
@@ -773,14 +790,14 @@ input{
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 246px;
+        height: 291px;
         color: aliceblue;
         padding: 10px 10px;
         background-color: rgb(53 66 74);
     }
     .text33 {
         width: 103%;
-        height: 316px;
+        height: 360px;
         color: white;
         padding: 10px 10px;
         background-color: rgb(53 66 74);
